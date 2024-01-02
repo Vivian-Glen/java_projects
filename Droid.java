@@ -12,6 +12,7 @@ public class Droid{
   }
   public void performTask(String task){
   System.out.println(name + " is performing task:" +task);
+  // battery life reducing after each task  
   batteryLevel= batteryLevel - 10;
   }
   public void energyReport()
